@@ -1,0 +1,32 @@
+
+#ifndef I2C_IO_H_
+#define I2C_IO_H_
+#include "stm8s.h"
+
+#define	SlaveAddress   0x3C	  //定义器件在IIC总线中的从地址
+#define SCL  GPIO_PIN_1
+#define SDA  GPIO_PIN_2
+#define SCL_LOW     GPIO_WriteLow(GPIOA, SCL)
+#define SCL_HIGH    GPIO_WriteHigh(GPIOA, SCL)
+#define SDA_LOW     GPIO_WriteLow(GPIOA, SDA)
+#define SDA_HIGH    GPIO_WriteHigh(GPIOA, SDA)
+#define SDA_OUT_SET   GPIO_Init(GPIOA, SDA, GPIO_MODE_OUT_PP_LOW_FAST)
+#define SDA_IN_SET    GPIO_Init(GPIOA, SDA, GPIO_MODE_IN_PU_NO_IT)
+#define SDA_IN_GET    GPIO_ReadInputPin(GPIOA,SDA)
+void InitHCM8553(void);
+/* IO 模拟函数 */
+void I2C_Start(void); 
+void I2C_Stop(void);
+void I2C_SendACK(uint8_t ack);
+uint8_t I2C_RecvACK(void);
+void I2C_SendByte(uint8_t data);
+uint8_t I2C_RecvByte(void);
+void SingleWriteHMC5883(uint8_t REG_Address,uint8_t REG_Data);
+uint8_t SingleReadHMC5883(uint8_t REG_Address);
+/* 连续读出内部角度数据 地址范围0x3~ 0x5*/
+void MultipleReadHMC5883(void);
+
+
+
+
+#endif 
