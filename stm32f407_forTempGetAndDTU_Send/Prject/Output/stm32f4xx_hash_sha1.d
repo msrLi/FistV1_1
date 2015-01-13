@@ -2,7 +2,7 @@
 .\output\stm32f4xx_hash_sha1.o: .\FWlib\inc\stm32f4xx_hash.h
 .\output\stm32f4xx_hash_sha1.o: .\user\stm32f4xx.h
 .\output\stm32f4xx_hash_sha1.o: .\CMSI\inc\core_cm4.h
-.\output\stm32f4xx_hash_sha1.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\stm32f4xx_hash_sha1.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
 .\output\stm32f4xx_hash_sha1.o: .\CMSI\inc\core_cmInstr.h
 .\output\stm32f4xx_hash_sha1.o: .\CMSI\inc\core_cmFunc.h
 .\output\stm32f4xx_hash_sha1.o: .\CMSI\inc\core_cm4_simd.h

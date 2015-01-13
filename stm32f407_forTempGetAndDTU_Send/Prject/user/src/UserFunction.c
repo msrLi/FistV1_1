@@ -34,16 +34,10 @@ void XunxianPro()
 	if(pwm_r>2500) pwm_r=2500;
 	else if(pwm_r<-200) pwm_r=-200;
 }
-uint8_t chukong,king;
-uint8_t keyss;
+uint8_t chukong;
 void XunBaoPRO()
 {
-	chukong=GetValue2(1);
-	king=GetValue2(8);
-	keyss=GetValue2(2);
-	// GetValueTime(0);
-	LCD_ShowString(150,100,"RIGHT");
-	ShowNumber(190,100,(int)chukong);
-	ShowNumber(190,120,(int)king);
-	ShowNumber(190,140,(int)keyss);
+	 // chukong=GetValue2(1);
+	GetValueTime(0);
 }
+

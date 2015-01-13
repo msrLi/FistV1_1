@@ -38,8 +38,8 @@ static CPU_STK AppTaskDateConnectedStk[APP_CFG_TASK_DATE_CONNECTED_STK_SIZE];  /
 static OS_TCB AppTaskStartTCB;    // 任务时间块 
 static CPU_STK AppTaskStartStk[APP_CFG_TASK_START_STK_SIZE];   // 任务堆栈 
 
-//static  OS_TCB   AppTaskGUITCB;   // 
-//static  CPU_STK  AppTaskGUIStk[APP_CFG_TASK_GUI_STK_SIZE];
+static  OS_TCB   AppTaskGUITCB;   // 
+static  CPU_STK  AppTaskGUIStk[APP_CFG_TASK_GUI_STK_SIZE];
 
 // static  OS_TCB   AppTaskGUIDrawingTCB;
 // static  CPU_STK  AppTaskGUIDrawingStk[APP_CFG_TASK_GUIDRAWING_STK_SIZE];
@@ -56,19 +56,19 @@ void  AppTaskCreate(void)
 {
 	OS_ERR      err;	 // 
   /* 创建GUI 任务*/
-//	OSTaskCreate((OS_TCB       *)&AppTaskGUITCB,              
-//               (CPU_CHAR     *)"App Task GUI",
-//               (OS_TASK_PTR   )AppTaskGUI, 
-//               (void         *)0,
-//               (OS_PRIO       )APP_CFG_TASK_GUI_PRIO,
-//               (CPU_STK      *)&AppTaskGUIStk[0],
-//               (CPU_STK_SIZE  )APP_CFG_TASK_GUI_STK_SIZE / 10,
-//               (CPU_STK_SIZE  )APP_CFG_TASK_GUI_STK_SIZE,
-//               (OS_MSG_QTY    )0,
-//               (OS_TICK       )8,
-//               (void         *)0,
-//               (OS_OPT        )(OS_OPT_TASK_STK_CHK | OS_OPT_TASK_STK_CLR),
-//               (OS_ERR       *)&err);
+	OSTaskCreate((OS_TCB       *)&AppTaskGUITCB,              
+               (CPU_CHAR     *)"App Task GUI",
+               (OS_TASK_PTR   )AppTaskGUI, 
+               (void         *)0,
+               (OS_PRIO       )APP_CFG_TASK_GUI_PRIO,
+               (CPU_STK      *)&AppTaskGUIStk[0],
+               (CPU_STK_SIZE  )APP_CFG_TASK_GUI_STK_SIZE / 10,
+               (CPU_STK_SIZE  )APP_CFG_TASK_GUI_STK_SIZE,
+               (OS_MSG_QTY    )0,
+               (OS_TICK       )8,
+               (void         *)0,
+               (OS_OPT        )(OS_OPT_TASK_STK_CHK | OS_OPT_TASK_STK_CLR),
+               (OS_ERR       *)&err);
 	/* 创建 画图 GUI  任务 */ 
 //	OSTaskCreate((OS_TCB       *)&AppTaskGUIDrawingTCB,              
 //               (CPU_CHAR     *)"App Task GUI Drawing",
@@ -176,14 +176,14 @@ static void AppTaskStart(void *p_arg)
 #ifdef CPU_CFG_INT_DIS_MEAS_EN
     CPU_IntDisMeasMaxCurReset();
 #endif
-//	LCD_ShowString(90,20,(uint8_t *) "Macrobot technology ");  
-//	LCD_ShowString(110,50,(uint8_t *) "Used By Student ");  
-//	OSTimeDlyHMSM((CPU_INT16U) 0u,
-//								(CPU_INT16U) 0u,
-//								(CPU_INT16U) 0,
-//								(CPU_INT32U) 1,
-//								(OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
-//								(OS_ERR   *)&err);		
+	LCD_ShowString(90,20,(uint8_t *) "Macrobot technology ");  
+	LCD_ShowString(110,50,(uint8_t *) "Used By Student ");  
+	OSTimeDlyHMSM((CPU_INT16U) 0u,
+								(CPU_INT16U) 0u,
+								(CPU_INT16U) 2,
+								(CPU_INT32U) 0,
+								(OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
+								(OS_ERR   *)&err);		
   LCD_Clear(BackS);
    AppTaskCreate();
 

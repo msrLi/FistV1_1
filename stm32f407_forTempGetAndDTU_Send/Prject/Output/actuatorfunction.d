@@ -2,7 +2,7 @@
 .\output\actuatorfunction.o: user\actuatorFunction.h
 .\output\actuatorfunction.o: user\stm32f4xx.h
 .\output\actuatorfunction.o: .\CMSI\inc\core_cm4.h
-.\output\actuatorfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\actuatorfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
 .\output\actuatorfunction.o: .\CMSI\inc\core_cmInstr.h
 .\output\actuatorfunction.o: .\CMSI\inc\core_cmFunc.h
 .\output\actuatorfunction.o: .\CMSI\inc\core_cm4_simd.h

@@ -132,13 +132,11 @@ void Deal_keyButtom(void)
 			keyValue.KeyDealFunc=Software[keyValue.pages*10+keyValue.numberTop].pts;
 		}		// LCD_ShowString(100,80,"KEY2 OK");
 	}
-	if(EXTI_GetITStatus(EXTI_Line4) != RESET)    // 退出按键 
+	if(EXTI_GetITStatus(EXTI_Line4) != RESET)
 	{
 		// statrSpeed=1;
 		keyValue.keyOK=0;
 		keyValue.PageChage=1;
-		__set_FAULTMASK(1); // 关闭所有中断
-		NVIC_SystemReset();//  复位
 		// LCD_Clear(BackS); 
 		// LCD_ShowString(100,100,"KEY4 OK");
 	}
@@ -168,16 +166,16 @@ void KeyENCDeal(void)
 		if(KeyFlag==1)
 		{
 			up++;
-			//LCD_ShowString(150,150,"Up");
+			LCD_ShowString(150,150,"Up");
 			myitoa(up,srbuff,10);
-			//LCD_ShowString(170,150,srbuff);
+			LCD_ShowString(170,150,srbuff);
 		}
 		else if(KeyFlag==-1)
 		{
 			down++;
-			//LCD_ShowString(150,180,"Down");	
+			LCD_ShowString(150,180,"Down");	
 			myitoa(down,srbuff,10);
-			//LCD_ShowString(170,180,srbuff);
+			LCD_ShowString(170,180,srbuff);
 		}
 
 }

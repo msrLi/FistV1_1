@@ -59,7 +59,7 @@
 *                             Size of the task stacks (# of OS_STK entries)
 *********************************************************************************************************
 */
-#define APP_CFG_TASK_DATE_CONNECTED_STK_SIZE   1536u     // 处理  接收到的温度湿度信息 
+#define APP_CFG_TASK_DATE_CONNECTED_STK_SIZE   1024u     // 处理  接收到的温度湿度信息 
 #define APP_CFG_TASK_DATE_DTUDEALY_STK_SIZE    1024u
 
 #define  APP_CFG_TASK_START_STK_SIZE            512u

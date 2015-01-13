@@ -167,7 +167,6 @@ void ExamFlagInit(void)
 void AppTaskDateConnected(void *p_arg)
 {
 	OS_ERR     err;
-	static uint8_t flag=0;
 //	uint8_t ubts;
 //	uint8_t i,j,count;
 //	uint8_t adds=0;
@@ -192,7 +191,7 @@ void AppTaskDateConnected(void *p_arg)
   USART2_RX_STA=0;
   USART1_RX_STA=0;
 	GPIO_SetBits(GPIOB,GPIO_Pin_0);
-  MainDeskTopFist();
+
 
 	ChangeSpeed(1,0);
 	ChangeSpeed(2,0);
@@ -205,16 +204,9 @@ void AppTaskDateConnected(void *p_arg)
 	 
 	while(1)
 	{		
-		// keyValue.keyOK==0 ?  showUpdate():showRun();
+		keyValue.keyOK==0 ?  showUpdate():showRun();
 		if(keyValue.keyOK)
 		{
-			if(flag==0)
-			{
-				LCD_Clear(BackS); 
-			  LCD_ShowString(20,20,(u8 *) Software[keyValue.pages*10+keyValue.numberTop].FunctioName);
-				LCD_ShowString(160,20,(u8 *) "Runing......");		  // 清除标志 显示字符 
-			}
-			flag=1;
 			(*keyValue.KeyDealFunc)();
 //			OSTimeDlyHMSM((CPU_INT16U) 0u,
 //										(CPU_INT16U) 0u,
@@ -223,17 +215,10 @@ void AppTaskDateConnected(void *p_arg)
 //										(OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
 //										(OS_ERR   *)&err);				
 		}else{
-			if(flag==1)
-			{
-				LCD_Clear(BackS);
-			}else{
-				flag=0;
-			}
-			showUpdate();
 			OSTimeDlyHMSM((CPU_INT16U) 0u,
 										(CPU_INT16U) 0u,
 										(CPU_INT16U) 0,
-										(CPU_INT32U) 50,
+										(CPU_INT32U) 100,
 										(OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
 										(OS_ERR   *)&err);				
 		}
@@ -264,12 +249,12 @@ void AppTaskDateConnected(void *p_arg)
 
 		 // GPIO_SetBits(GPIOB,GPIO_Pin_0);    // 不选中 4--16 译码器 
 		/*  查询频率 设置 */
-//		OSTimeDlyHMSM((CPU_INT16U) 0u,
-//                  (CPU_INT16U) 0u,
-//                  (CPU_INT16U) 0,
-//                  (CPU_INT32U) 1,
-//                  (OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
-//                  (OS_ERR   *)&err);	
+		OSTimeDlyHMSM((CPU_INT16U) 0u,
+                  (CPU_INT16U) 0u,
+                  (CPU_INT16U) 0,
+                  (CPU_INT32U) 1,
+                  (OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
+                  (OS_ERR   *)&err);	
 	 }	  
 }
 void GetValueTime(uint8_t Ports)

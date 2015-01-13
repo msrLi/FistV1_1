@@ -25,7 +25,7 @@ void ShowNumber(uint8_t x,uint8_t y,int num)
 		num=0-num;
 		flag=1;	
 	}
-	LCD_ShowString(x,y,(const u8 *)"    ");
+	LCD_ShowString(x,y,(const u8 *)"            ");
 	if(flag==1)
 	{
 		LCD_ShowString(x,y,(const u8 *)"-");

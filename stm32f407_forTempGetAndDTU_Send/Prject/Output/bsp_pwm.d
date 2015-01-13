@@ -2,7 +2,7 @@
 .\output\bsp_pwm.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\bsp_pwm.o: .\user\stm32f4xx.h
 .\output\bsp_pwm.o: .\CMSI\inc\core_cm4.h
-.\output\bsp_pwm.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\bsp_pwm.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
 .\output\bsp_pwm.o: .\CMSI\inc\core_cmInstr.h
 .\output\bsp_pwm.o: .\CMSI\inc\core_cmFunc.h
 .\output\bsp_pwm.o: .\CMSI\inc\core_cm4_simd.h
