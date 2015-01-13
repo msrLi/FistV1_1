@@ -55,9 +55,9 @@ uint16_t GetValue1(char buff[])
 *      comPort 端口号
 *   按端口号返回端口读取到的数据
 **/
-uint16_t GetValue2(uint8_t comPort)
+uint16_t GetValue2(int8_t comPort)
 {
-	if(comPort-1>=16) return 0;
+	if(comPort-1>=16 || comPort-1<0)		return 0;
 	GetValueTime(comPort-1);
 	return (*comPortData[comPort-1].dataPoint);
 }

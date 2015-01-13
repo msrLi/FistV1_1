@@ -1,8 +1,8 @@
 .\output\userfunction.o: user\src\UserFunction.c
 .\output\userfunction.o: .\user\inc\UserFunction.h
 .\output\userfunction.o: .\user\bsp.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\output\userfunction.o: ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
 .\output\userfunction.o: ..\UCOS_III\uC-CPU\cpu_def.h
 .\output\userfunction.o: ..\UCOS_III\UcosCfg\cpu_cfg.h
@@ -17,7 +17,7 @@
 .\output\userfunction.o: .\FWlib\inc\stm32f4xx_adc.h
 .\output\userfunction.o: .\user\stm32f4xx.h
 .\output\userfunction.o: .\CMSI\inc\core_cm4.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\userfunction.o: .\CMSI\inc\core_cmInstr.h
 .\output\userfunction.o: .\CMSI\inc\core_cmFunc.h
 .\output\userfunction.o: .\CMSI\inc\core_cm4_simd.h
@@ -56,9 +56,9 @@
 .\output\userfunction.o: .\user\Bsp\inc\Bsp_LCD2_4_SPI.h
 .\output\userfunction.o: .\user\Bsp\inc\Bsp_ENC.h
 .\output\userfunction.o: ..\UCOS_III\UcosCfg\includes.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
 .\output\userfunction.o: ..\UCOS_III\uC-LIB\lib_math.h
 .\output\userfunction.o: .\user\inc\Story_datas.h
 .\output\userfunction.o: ..\UCOS_III\uCOS-III\Source\os.h
@@ -90,7 +90,7 @@
 .\output\userfunction.o: ..\EmWin\Include\GUI_Private.h
 .\output\userfunction.o: ..\EmWin\Include\LCD_Protected.h
 .\output\userfunction.o: ..\EmWin\Include\GUI_Debug.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stddef.h
 .\output\userfunction.o: ..\EmWin\Include\SCROLLBAR.h
 .\output\userfunction.o: ..\EmWin\Include\WIDGET.h
 .\output\userfunction.o: ..\EmWin\Include\CALENDAR.h
@@ -120,7 +120,7 @@
 .\output\userfunction.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\userfunction.o: .\user\Bsp\inc\Bsp_key.h
 .\output\userfunction.o: .\user\inc\exchangeData.h
-.\output\userfunction.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\output\userfunction.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h
 .\output\userfunction.o: .\user\actuatorFunction.h
 .\output\userfunction.o: .\user\LCD_Draw.h
 .\output\userfunction.o: .\user\dataStory.h

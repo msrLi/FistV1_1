@@ -2,7 +2,7 @@
 .\output\font.o: .\user\Bsp\inc\Font.h
 .\output\font.o: .\user\stm32f4xx.h
 .\output\font.o: .\CMSI\inc\core_cm4.h
-.\output\font.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\font.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\font.o: .\CMSI\inc\core_cmInstr.h
 .\output\font.o: .\CMSI\inc\core_cmFunc.h
 .\output\font.o: .\CMSI\inc\core_cm4_simd.h

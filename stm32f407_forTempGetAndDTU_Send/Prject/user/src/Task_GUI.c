@@ -19,7 +19,7 @@ void AppTaskGUI(void *p_arg)
 	 
 	 while(1)
 	 {
-		 BSP_OS_TimeDly(50);
+		 BSP_OS_TimeDly(1000);
 		 
 	 }
 }

@@ -1,7 +1,7 @@
 .\output\system_stm32f4xx.o: user\system_stm32f4xx.c
 .\output\system_stm32f4xx.o: user\stm32f4xx.h
 .\output\system_stm32f4xx.o: .\CMSI\inc\core_cm4.h
-.\output\system_stm32f4xx.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\system_stm32f4xx.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\system_stm32f4xx.o: .\CMSI\inc\core_cmInstr.h
 .\output\system_stm32f4xx.o: .\CMSI\inc\core_cmFunc.h
 .\output\system_stm32f4xx.o: .\CMSI\inc\core_cm4_simd.h

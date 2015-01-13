@@ -2,7 +2,7 @@
 .\output\bsp_lcd2_4_spi.o: .\user\Bsp\inc\Bsp_LCD2_4_SPI.h
 .\output\bsp_lcd2_4_spi.o: .\user\stm32f4xx.h
 .\output\bsp_lcd2_4_spi.o: .\CMSI\inc\core_cm4.h
-.\output\bsp_lcd2_4_spi.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\bsp_lcd2_4_spi.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\bsp_lcd2_4_spi.o: .\CMSI\inc\core_cmInstr.h
 .\output\bsp_lcd2_4_spi.o: .\CMSI\inc\core_cmFunc.h
 .\output\bsp_lcd2_4_spi.o: .\CMSI\inc\core_cm4_simd.h

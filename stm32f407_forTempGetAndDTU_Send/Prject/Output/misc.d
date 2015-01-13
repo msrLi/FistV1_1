@@ -2,7 +2,7 @@
 .\output\misc.o: .\FWlib\inc\misc.h
 .\output\misc.o: .\user\stm32f4xx.h
 .\output\misc.o: .\CMSI\inc\core_cm4.h
-.\output\misc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\misc.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\misc.o: .\CMSI\inc\core_cmInstr.h
 .\output\misc.o: .\CMSI\inc\core_cmFunc.h
 .\output\misc.o: .\CMSI\inc\core_cm4_simd.h

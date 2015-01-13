@@ -1,8 +1,8 @@
 .\output\task_dtudely.o: user\src\Task_DtuDely.c
 .\output\task_dtudely.o: .\user\inc\Task_DtuDely.h
 .\output\task_dtudely.o: .\user\BSP.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\output\task_dtudely.o: ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
 .\output\task_dtudely.o: ..\UCOS_III\uC-CPU\cpu_def.h
 .\output\task_dtudely.o: ..\UCOS_III\UcosCfg\cpu_cfg.h
@@ -17,7 +17,7 @@
 .\output\task_dtudely.o: .\FWlib\inc\stm32f4xx_adc.h
 .\output\task_dtudely.o: .\user\stm32f4xx.h
 .\output\task_dtudely.o: .\CMSI\inc\core_cm4.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\task_dtudely.o: .\CMSI\inc\core_cmInstr.h
 .\output\task_dtudely.o: .\CMSI\inc\core_cmFunc.h
 .\output\task_dtudely.o: .\CMSI\inc\core_cm4_simd.h
@@ -56,9 +56,9 @@
 .\output\task_dtudely.o: .\user\Bsp\inc\Bsp_LCD2_4_SPI.h
 .\output\task_dtudely.o: .\user\Bsp\inc\Bsp_ENC.h
 .\output\task_dtudely.o: ..\UCOS_III\UcosCfg\includes.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
 .\output\task_dtudely.o: ..\UCOS_III\uC-LIB\lib_math.h
 .\output\task_dtudely.o: .\user\inc\Story_datas.h
 .\output\task_dtudely.o: ..\UCOS_III\uCOS-III\Source\os.h
@@ -90,7 +90,7 @@
 .\output\task_dtudely.o: ..\EmWin\Include\GUI_Private.h
 .\output\task_dtudely.o: ..\EmWin\Include\LCD_Protected.h
 .\output\task_dtudely.o: ..\EmWin\Include\GUI_Debug.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stddef.h
 .\output\task_dtudely.o: ..\EmWin\Include\SCROLLBAR.h
 .\output\task_dtudely.o: ..\EmWin\Include\WIDGET.h
 .\output\task_dtudely.o: ..\EmWin\Include\CALENDAR.h
@@ -120,7 +120,7 @@
 .\output\task_dtudely.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\task_dtudely.o: .\user\Bsp\inc\Bsp_key.h
 .\output\task_dtudely.o: .\user\inc\exchangeData.h
-.\output\task_dtudely.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\output\task_dtudely.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h
 .\output\task_dtudely.o: .\user\actuatorFunction.h
 .\output\task_dtudely.o: .\user\LCD_Draw.h
 .\output\task_dtudely.o: .\user\dataStory.h

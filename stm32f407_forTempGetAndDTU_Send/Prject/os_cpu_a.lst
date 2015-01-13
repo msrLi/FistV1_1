@@ -377,10 +377,11 @@ ARM Macro Assembler    Page 6
               00000000 
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=.\out
-put\os_cpu_a.d -o.\output\os_cpu_a.o -ID:\Keil_v5\ARM\RV31\INC -ID:\Keil_v5\ARM
-\PACK\ARM\CMSIS\3.20.4\CMSIS\Include -ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2
-.2.0\Device\Include --predefine="__MICROLIB SETA 1" --list=.\os_cpu_a.lst ..\UC
-OS_III\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_a.asm
+put\os_cpu_a.d -o.\output\os_cpu_a.o -I"C:\Program Files\keil\ARM\RV31\INC" -I"
+C:\Program Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include" -I"C:\Program Fi
+les\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Device\Include" --predefine="__MICRO
+LIB SETA 1" --list=.\os_cpu_a.lst ..\UCOS_III\uCOS-III\Ports\ARM-Cortex-M4\Gene
+ric\RealView\os_cpu_a.asm
 
 
 

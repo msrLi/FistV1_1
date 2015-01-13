@@ -2,7 +2,7 @@
 .\output\datastory.o: user\dataStory.h
 .\output\datastory.o: user\stm32f4xx.h
 .\output\datastory.o: .\CMSI\inc\core_cm4.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\datastory.o: .\CMSI\inc\core_cmInstr.h
 .\output\datastory.o: .\CMSI\inc\core_cmFunc.h
 .\output\datastory.o: .\CMSI\inc\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\output\datastory.o: .\FWlib\inc\misc.h
 .\output\datastory.o: .\user\inc\Task_dateConnected.h
 .\output\datastory.o: ..\UCOS_III\UcosCfg\includes.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
 .\output\datastory.o: ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
 .\output\datastory.o: ..\UCOS_III\uC-CPU\cpu_def.h
 .\output\datastory.o: ..\UCOS_III\UcosCfg\cpu_cfg.h
@@ -73,7 +73,7 @@
 .\output\datastory.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\datastory.o: .\user\Bsp\inc\Bsp_key.h
 .\output\datastory.o: .\user\inc\exchangeData.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h
 .\output\datastory.o: .\user\actuatorFunction.h
 .\output\datastory.o: .\user\LCD_Draw.h
 .\output\datastory.o: .\user\dataStory.h
@@ -101,7 +101,7 @@
 .\output\datastory.o: ..\EmWin\Include\GUI_Private.h
 .\output\datastory.o: ..\EmWin\Include\LCD_Protected.h
 .\output\datastory.o: ..\EmWin\Include\GUI_Debug.h
-.\output\datastory.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\output\datastory.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stddef.h
 .\output\datastory.o: ..\EmWin\Include\SCROLLBAR.h
 .\output\datastory.o: ..\EmWin\Include\WIDGET.h
 .\output\datastory.o: ..\EmWin\Include\CALENDAR.h
