@@ -93,8 +93,8 @@ void LCD_ShowString(u16 x,u16 y,const u8 *p)
 {         
     while(*p!='\0')
     {       
-        if(x>LCD_W-16){x=0;y+=16;}
-        if(y>LCD_H-16){y=x=0;}
+        //if(x>LCD_W-16){x=0;y+=16;}
+        //if(y>LCD_H-16){y=x=0;}
         LCD_ShowChar(x,y,*p,0);
         x+=8;
         p++;
