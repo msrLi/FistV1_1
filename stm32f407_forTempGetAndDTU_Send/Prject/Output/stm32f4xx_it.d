@@ -2,7 +2,7 @@
 .\output\stm32f4xx_it.o: user\stm32f4xx_it.h
 .\output\stm32f4xx_it.o: user\stm32f4xx.h
 .\output\stm32f4xx_it.o: .\CMSI\inc\core_cm4.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
 .\output\stm32f4xx_it.o: .\CMSI\inc\core_cmInstr.h
 .\output\stm32f4xx_it.o: .\CMSI\inc\core_cmFunc.h
 .\output\stm32f4xx_it.o: .\CMSI\inc\core_cm4_simd.h
@@ -36,8 +36,8 @@
 .\output\stm32f4xx_it.o: .\FWlib\inc\stm32f4xx_wwdg.h
 .\output\stm32f4xx_it.o: .\FWlib\inc\misc.h
 .\output\stm32f4xx_it.o: user\bsp.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdio.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
 .\output\stm32f4xx_it.o: ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
 .\output\stm32f4xx_it.o: ..\UCOS_III\uC-CPU\cpu_def.h
 .\output\stm32f4xx_it.o: ..\UCOS_III\UcosCfg\cpu_cfg.h
@@ -56,9 +56,9 @@
 .\output\stm32f4xx_it.o: .\user\Bsp\inc\Bsp_LCD2_4_SPI.h
 .\output\stm32f4xx_it.o: .\user\Bsp\inc\Bsp_ENC.h
 .\output\stm32f4xx_it.o: ..\UCOS_III\UcosCfg\includes.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdlib.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
 .\output\stm32f4xx_it.o: ..\UCOS_III\uC-LIB\lib_math.h
 .\output\stm32f4xx_it.o: .\user\inc\Story_datas.h
 .\output\stm32f4xx_it.o: ..\UCOS_III\uCOS-III\Source\os.h
@@ -90,7 +90,7 @@
 .\output\stm32f4xx_it.o: ..\EmWin\Include\GUI_Private.h
 .\output\stm32f4xx_it.o: ..\EmWin\Include\LCD_Protected.h
 .\output\stm32f4xx_it.o: ..\EmWin\Include\GUI_Debug.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stddef.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
 .\output\stm32f4xx_it.o: ..\EmWin\Include\SCROLLBAR.h
 .\output\stm32f4xx_it.o: ..\EmWin\Include\WIDGET.h
 .\output\stm32f4xx_it.o: ..\EmWin\Include\CALENDAR.h
@@ -120,7 +120,7 @@
 .\output\stm32f4xx_it.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\stm32f4xx_it.o: .\user\Bsp\inc\Bsp_key.h
 .\output\stm32f4xx_it.o: .\user\inc\exchangeData.h
-.\output\stm32f4xx_it.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h
+.\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
 .\output\stm32f4xx_it.o: user\actuatorFunction.h
 .\output\stm32f4xx_it.o: user\LCD_Draw.h
 .\output\stm32f4xx_it.o: user\dataStory.h
