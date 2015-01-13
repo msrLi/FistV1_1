@@ -3,10 +3,63 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-F:\GitHub\macrobotUsart\RobotUsartUsed\stm32f407_forTempGetAndDTU_Send\Prject\PriojAllComble.uvproj
+C:\Users\msr_li\Documents\GitHub\FistV1_1\stm32f407_forTempGetAndDTU_Send\Prject\PriojAllComble.uvproj
 Project File Date:  01/06/2015
 
 <h2>Output:</h2>
-</pre>
-</body>
-</html>
+Build target 'PriojAllComble'
+compiling UserFunction.c...
+user\src\UserFunction.c(15): warning:  #177-D: variable "i" was declared but never referenced
+        uint8_t i,j,count;
+user\src\UserFunction.c(15): warning:  #177-D: variable "j" was declared but never referenced
+        uint8_t i,j,count;
+user\src\UserFunction.c(15): warning:  #177-D: variable "count" was declared but never referenced
+        uint8_t i,j,count;
+user\src\UserFunction.c(16): warning:  #177-D: variable "adds" was declared but never referenced
+        uint8_t adds=0;
+user\src\UserFunction.c(17): warning:  #177-D: variable "rece" was declared but never referenced
+    uint8_t *rece;
+user\src\UserFunction.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=56332 RO-data=1484 RW-data=2656 ZI-data=32368  
+FromELF: creating hex file...
+".\Output\base_empty.axf" - 0 Error(s), 5 Warning(s).
+Load "C:\\Users\\msr_li\\Documents\\GitHub\\FistV1_1\\stm32f407_forTempGetAndDTU_Send\\Prject\\Output\\base_empty.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+,error,pwm_l,pwm_r;
+user\src\Task_DtuDely.c(15): warning:  #177-D: variable "pwm_l" was declared but never referenced
+        int common,error,pwm_l,pwm_r;
+user\src\Task_DtuDely.c(15): warning:  #177-D: variable "pwm_r" was declared but never referenced
+        int common,error,pwm_l,pwm_r;
+user\src\Task_DtuDely.c: 5 warnings, 0 errors
+compiling UserFunction.c...
+user\src\UserFunction.c(15): warning:  #177-D: variable "i" was declared but never referenced
+        uint8_t i,j,count;
+user\src\UserFunction.c(15): warning:  #177-D: variable "j" was declared but never referenced
+        uint8_t i,j,count;
+user\src\UserFunction.c(15): warning:  #177-D: variable "count" was declared but never referenced
+        uint8_t i,j,count;
+user\src\UserFunction.c(16): warning:  #177-D: variable "adds" was declared but never referenced
+        uint8_t adds=0;
+user\src\UserFunction.c(17): warning:  #177-D: variable "rece" was declared but never referenced
+    uint8_t *rece;
+user\src\UserFunction.c: 5 warnings, 0 errors
+compiling main.c...
+compiling stm32f4xx_it.c...
+compiling dataStory.c...
+compiling LCD_Draw.c...
+compiling bsp.c...
+compiling Bsp_Led.c...
+compiling bsp_os.c...
+compiling Bsp_ENC.c...
+compiling Bsp_key.c...
+user\Bsp\src\Bsp_key.c(183): warning:  #1-D: last line of file ends without a newline
+  }
+user\Bsp\src\Bsp_key.c: 1 warning, 0 errors
+compiling Bsp_slectLCD.c...
+linking...
+Program Size: Code=56276 RO-data=1484 RW-data=2652 ZI-data=32372  
+FromELF: creating hex file...
+".\Output\base_empty.axf" - 0 Error(s), 15 Warning(s).

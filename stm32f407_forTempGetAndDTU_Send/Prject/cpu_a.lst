@@ -461,10 +461,10 @@ ARM Macro Assembler    Page 8
 
   289 00000034                 END
 Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=.\out
-put\cpu_a.d -o.\output\cpu_a.o -ID:\Keil_v5\ARM\RV31\INC -ID:\Keil_v5\ARM\PACK\
-ARM\CMSIS\3.20.4\CMSIS\Include -ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\D
-evice\Include --predefine="__MICROLIB SETA 1" --list=.\cpu_a.lst ..\UCOS_III\uC
--CPU\ARM-Cortex-M4\RealView\cpu_a.asm
+put\cpu_a.d -o.\output\cpu_a.o -I"C:\Program Files\keil\ARM\RV31\INC" -I"C:\Pro
+gram Files\keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include" -I"C:\Program Files\ke
+il\ARM\PACK\Keil\STM32F4xx_DFP\2.2.0\Device\Include" --predefine="__MICROLIB SE
+TA 1" --list=.\cpu_a.lst ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm
 
 
 

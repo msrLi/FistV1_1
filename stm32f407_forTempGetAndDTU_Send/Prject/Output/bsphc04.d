@@ -2,7 +2,7 @@
 .\output\bsphc04.o: user\BspHc04.h
 .\output\bsphc04.o: user\stm32f4xx.h
 .\output\bsphc04.o: .\CMSI\inc\core_cm4.h
-.\output\bsphc04.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\bsphc04.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\bsphc04.o: .\CMSI\inc\core_cmInstr.h
 .\output\bsphc04.o: .\CMSI\inc\core_cmFunc.h
 .\output\bsphc04.o: .\CMSI\inc\core_cm4_simd.h

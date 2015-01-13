@@ -2,7 +2,7 @@
 .\output\lcd_draw.o: user\LCD_Draw.h
 .\output\lcd_draw.o: user\stm32f4xx.h
 .\output\lcd_draw.o: .\CMSI\inc\core_cm4.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\lcd_draw.o: .\CMSI\inc\core_cmInstr.h
 .\output\lcd_draw.o: .\CMSI\inc\core_cmFunc.h
 .\output\lcd_draw.o: .\CMSI\inc\core_cm4_simd.h
@@ -36,8 +36,8 @@
 .\output\lcd_draw.o: .\FWlib\inc\stm32f4xx_wwdg.h
 .\output\lcd_draw.o: .\FWlib\inc\misc.h
 .\output\lcd_draw.o: user\bsp.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdarg.h
 .\output\lcd_draw.o: ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
 .\output\lcd_draw.o: ..\UCOS_III\uC-CPU\cpu_def.h
 .\output\lcd_draw.o: ..\UCOS_III\UcosCfg\cpu_cfg.h
@@ -56,9 +56,9 @@
 .\output\lcd_draw.o: .\user\Bsp\inc\Bsp_LCD2_4_SPI.h
 .\output\lcd_draw.o: .\user\Bsp\inc\Bsp_ENC.h
 .\output\lcd_draw.o: ..\UCOS_III\UcosCfg\includes.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
 .\output\lcd_draw.o: ..\UCOS_III\uC-LIB\lib_math.h
 .\output\lcd_draw.o: .\user\inc\Story_datas.h
 .\output\lcd_draw.o: ..\UCOS_III\uCOS-III\Source\os.h
@@ -90,7 +90,7 @@
 .\output\lcd_draw.o: ..\EmWin\Include\GUI_Private.h
 .\output\lcd_draw.o: ..\EmWin\Include\LCD_Protected.h
 .\output\lcd_draw.o: ..\EmWin\Include\GUI_Debug.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stddef.h
 .\output\lcd_draw.o: ..\EmWin\Include\SCROLLBAR.h
 .\output\lcd_draw.o: ..\EmWin\Include\WIDGET.h
 .\output\lcd_draw.o: ..\EmWin\Include\CALENDAR.h
@@ -120,7 +120,7 @@
 .\output\lcd_draw.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\lcd_draw.o: .\user\Bsp\inc\Bsp_key.h
 .\output\lcd_draw.o: .\user\inc\exchangeData.h
-.\output\lcd_draw.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\output\lcd_draw.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h
 .\output\lcd_draw.o: user\actuatorFunction.h
 .\output\lcd_draw.o: user\LCD_Draw.h
 .\output\lcd_draw.o: user\dataStory.h

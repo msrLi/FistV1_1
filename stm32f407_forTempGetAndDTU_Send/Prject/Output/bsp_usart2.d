@@ -2,7 +2,7 @@
 .\output\bsp_usart2.o: .\user\Bsp\inc\Bsp_Usart2.h
 .\output\bsp_usart2.o: .\user\stm32f4xx.h
 .\output\bsp_usart2.o: .\CMSI\inc\core_cm4.h
-.\output\bsp_usart2.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\bsp_usart2.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\bsp_usart2.o: .\CMSI\inc\core_cmInstr.h
 .\output\bsp_usart2.o: .\CMSI\inc\core_cmFunc.h
 .\output\bsp_usart2.o: .\CMSI\inc\core_cm4_simd.h

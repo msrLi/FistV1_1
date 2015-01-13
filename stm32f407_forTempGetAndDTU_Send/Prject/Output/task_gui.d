@@ -1,11 +1,11 @@
 .\output\task_gui.o: user\src\Task_GUI.c
 .\output\task_gui.o: .\user\inc\Task_GUI.h
 .\output\task_gui.o: ..\UCOS_III\UcosCfg\includes.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
 .\output\task_gui.o: ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
 .\output\task_gui.o: ..\UCOS_III\uC-CPU\cpu_def.h
 .\output\task_gui.o: ..\UCOS_III\UcosCfg\cpu_cfg.h
@@ -20,7 +20,7 @@
 .\output\task_gui.o: .\user\inc\Story_datas.h
 .\output\task_gui.o: .\user\stm32f4xx.h
 .\output\task_gui.o: .\CMSI\inc\core_cm4.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\task_gui.o: .\CMSI\inc\core_cmInstr.h
 .\output\task_gui.o: .\CMSI\inc\core_cmFunc.h
 .\output\task_gui.o: .\CMSI\inc\core_cm4_simd.h
@@ -72,7 +72,7 @@
 .\output\task_gui.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\task_gui.o: .\user\Bsp\inc\Bsp_key.h
 .\output\task_gui.o: .\user\inc\exchangeData.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h
 .\output\task_gui.o: .\user\actuatorFunction.h
 .\output\task_gui.o: .\user\LCD_Draw.h
 .\output\task_gui.o: .\user\dataStory.h
@@ -100,7 +100,7 @@
 .\output\task_gui.o: ..\EmWin\Include\GUI_Private.h
 .\output\task_gui.o: ..\EmWin\Include\LCD_Protected.h
 .\output\task_gui.o: ..\EmWin\Include\GUI_Debug.h
-.\output\task_gui.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\output\task_gui.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stddef.h
 .\output\task_gui.o: ..\EmWin\Include\SCROLLBAR.h
 .\output\task_gui.o: ..\EmWin\Include\WIDGET.h
 .\output\task_gui.o: ..\EmWin\Include\CALENDAR.h

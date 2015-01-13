@@ -2,7 +2,7 @@
 .\output\exchangedata.o: .\user\inc\exchangeData.h
 .\output\exchangedata.o: .\user\stm32f4xx.h
 .\output\exchangedata.o: .\CMSI\inc\core_cm4.h
-.\output\exchangedata.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\exchangedata.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\exchangedata.o: .\CMSI\inc\core_cmInstr.h
 .\output\exchangedata.o: .\CMSI\inc\core_cmFunc.h
 .\output\exchangedata.o: .\CMSI\inc\core_cm4_simd.h
@@ -35,6 +35,6 @@
 .\output\exchangedata.o: .\FWlib\inc\stm32f4xx_usart.h
 .\output\exchangedata.o: .\FWlib\inc\stm32f4xx_wwdg.h
 .\output\exchangedata.o: .\FWlib\inc\misc.h
-.\output\exchangedata.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
-.\output\exchangedata.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
-.\output\exchangedata.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\output\exchangedata.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
+.\output\exchangedata.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
+.\output\exchangedata.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h

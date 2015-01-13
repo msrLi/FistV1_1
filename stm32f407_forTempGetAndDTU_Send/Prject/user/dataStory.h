@@ -47,6 +47,6 @@ uint16_t GetValue(char buff[]);
 *      comPort 端口号
 *   按端口号返回端口读取到的数据
 **/
-uint16_t GetValue2(uint8_t comPort);
+uint16_t GetValue2(int8_t comPort);
 
 #endif

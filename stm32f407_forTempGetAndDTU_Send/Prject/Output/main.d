@@ -1,7 +1,7 @@
 .\output\main.o: user\main.c
 .\output\main.o: user\stm32f4xx.h
 .\output\main.o: .\CMSI\inc\core_cm4.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdint.h
 .\output\main.o: .\CMSI\inc\core_cmInstr.h
 .\output\main.o: .\CMSI\inc\core_cmFunc.h
 .\output\main.o: .\CMSI\inc\core_cm4_simd.h
@@ -35,11 +35,11 @@
 .\output\main.o: .\FWlib\inc\stm32f4xx_wwdg.h
 .\output\main.o: .\FWlib\inc\misc.h
 .\output\main.o: ..\UCOS_III\UcosCfg\includes.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdarg.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\math.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\math.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\string.h
 .\output\main.o: ..\UCOS_III\uC-CPU\ARM-Cortex-M4\RealView\cpu.h
 .\output\main.o: ..\UCOS_III\uC-CPU\cpu_def.h
 .\output\main.o: ..\UCOS_III\UcosCfg\cpu_cfg.h
@@ -71,7 +71,7 @@
 .\output\main.o: .\user\Bsp\inc\Bsp_PWM.h
 .\output\main.o: .\user\Bsp\inc\Bsp_key.h
 .\output\main.o: .\user\inc\exchangeData.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\assert.h
 .\output\main.o: .\user\actuatorFunction.h
 .\output\main.o: .\user\LCD_Draw.h
 .\output\main.o: .\user\dataStory.h
@@ -99,7 +99,7 @@
 .\output\main.o: ..\EmWin\Include\GUI_Private.h
 .\output\main.o: ..\EmWin\Include\LCD_Protected.h
 .\output\main.o: ..\EmWin\Include\GUI_Debug.h
-.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\output\main.o: C:\Program Files\keil\ARM\ARMCC\bin\..\include\stddef.h
 .\output\main.o: ..\EmWin\Include\SCROLLBAR.h
 .\output\main.o: ..\EmWin\Include\WIDGET.h
 .\output\main.o: ..\EmWin\Include\CALENDAR.h
