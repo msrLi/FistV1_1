@@ -409,11 +409,6 @@
               <FileType>1</FileType>
               <FilePath>.\user\src\Task_dateConnected.c</FilePath>
             </File>
-            <File>
-              <FileName>UserFunction.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\user\src\UserFunction.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>

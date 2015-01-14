@@ -24,8 +24,8 @@
 #define SCK_LOW    GPIO_ResetBits(GPIOB, GPIO_Pin_13);//不选中	
 #define SCK_HIGH   GPIO_SetBits(GPIOB, GPIO_Pin_13);
 
-#define LCD_W 320
-#define LCD_H 240
+#define LCD_W 321
+#define LCD_H 254
 uint16_t POINT_COLOR=0xFF33;
 uint16_t BACK_COLOR=0x20FF;
 //画点
@@ -50,7 +50,7 @@ void LCD_ShowChar(u16 x,u16 y,u8 num,u8 mode)
   u8 pos,t;
 	u16 x0=x;
 	u16 colortemp=POINT_COLOR;      
-  if(x+8-1>LCD_W-1||y+16-1>LCD_H-1)return;	    
+    if(x>LCD_W-16||y>LCD_H-16)return;	    
 	//设置窗口		   
 	num=num-' ';//得到偏移后的值
 	Address_set(x,y,x+8-1,y+16-1);      //设置光标位置 
@@ -83,52 +83,22 @@ void LCD_ShowChar(u16 x,u16 y,u8 num,u8 mode)
 		}
 	}
 	POINT_COLOR=colortemp;	    	   	 	  
-}
+}   
 
-struct location{
-	u16 x;
-	u16 y;
-	u16 length;	//字符串长度
-} textView[100];	//最多支持100个
-u16 textCount = 0;
 //显示字符串
 //x,y:起点坐标  
 //*p:字符串起始地址
 //用16字体
 void LCD_ShowString(u16 x,u16 y,const u8 *p)
-{
-	//保存该写入的起始位置
-	u16 i = 0, k = 0;
-	u8 isWrited = 0;
-	u16 strLength = 0;
-	u16 xx=x, yy=y;
-	for(i=0; i<100, i<textCount; i++){
-		if(textView[i].x == x && textView[i].y == y){	//在同一个位置写入字符串
-			isWrited = 1;
-			break;
-		}
-	}
-	while(*p!='\0')
-	{       
-		//if(x>LCD_W-16){x=0;y+=16;}
-		//if(y>LCD_H-16){y=x=0;}
-		LCD_ShowChar(xx,yy,*p,0);
-		p++;
-		xx+=8;
-		strLength++;
-	}
-	if(isWrited){	//清空上次
-		for(k=strLength; k<textView[i].length; k++){
-			LCD_ShowChar(xx,yy,' ',0);
-			xx+=8;
-		}
-		textView[i].length = strLength;
-	}else{
-		textView[i].length = strLength;
-		textView[i].x = x;
-		textView[i].y = y;
-		textCount++;
-	}
+{      	
+    while(*p!='\0')
+    {       
+        if(x>LCD_W-16){x=0;y+=16;}
+        if(y>LCD_H-16){y=x=0;}
+        LCD_ShowChar(x,y,*p,0);
+        x+=8;
+        p++;
+    }  
 }
 /*
 *

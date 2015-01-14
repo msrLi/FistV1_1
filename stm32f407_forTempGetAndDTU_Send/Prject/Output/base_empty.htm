@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Output\base_empty.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Output\base_empty.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5040049: Last Updated: Wed Jan 14 10:35:00 2015
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5040049: Last Updated: Wed Jan 14 20:09:53 2015
 <BR><P>
 <H3>Maximum Stack Usage =        240 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -224,7 +224,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[61]"></a>AppTaskDateConnected</STRONG> (Thumb, 204 bytes, Stack size 16 bytes, task_dateconnected.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 168 + Unknown Stack Size
+<BR><BR>[Stack]<UL><LI>Max Depth = 192 + Unknown Stack Size
 <LI>Call Chain = AppTaskDateConnected &rArr; MainDeskTopFist &rArr; showUpdate &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;showUpdate
@@ -273,8 +273,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1]"></a>XunxianPro</STRONG> (Thumb, 178 bytes, Stack size 48 bytes, userfunction.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 228 + Unknown Stack Size
-<LI>Call Chain = XunxianPro &rArr; GetValueTime &rArr; OSSemPend &rArr; OS_Pend &rArr; OS_TaskBlock &rArr; OS_RdyListRemove &rArr; OS_PrioRemove
+<BR><BR>[Stack]<UL><LI>Max Depth = 232 + Unknown Stack Size
+<LI>Call Chain = XunxianPro &rArr; ShowNumber &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2iz
@@ -504,7 +504,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[87]"></a>ShowNumber</STRONG> (Thumb, 70 bytes, Stack size 32 bytes, lcd_draw.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = ShowNumber &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = ShowNumber &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;myitoa
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ShowString
@@ -718,7 +718,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ShowChar
 </UL>
 
-<P><STRONG><a name="[d6]"></a>LCD_ShowChar</STRONG> (Thumb, 220 bytes, Stack size 56 bytes, bsp_lcd2_4_spi.o(.text))
+<P><STRONG><a name="[d6]"></a>LCD_ShowChar</STRONG> (Thumb, 226 bytes, Stack size 56 bytes, bsp_lcd2_4_spi.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WR_DATA
@@ -728,8 +728,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ShowString
 </UL>
 
-<P><STRONG><a name="[7c]"></a>LCD_ShowString</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, bsp_lcd2_4_spi.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
+<P><STRONG><a name="[7c]"></a>LCD_ShowString</STRONG> (Thumb, 236 bytes, Stack size 40 bytes, bsp_lcd2_4_spi.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ShowChar
 </UL>
@@ -867,7 +867,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> userfunction.o(.data)
 </UL>
 <P><STRONG><a name="[7d]"></a>showUpdate</STRONG> (Thumb, 202 bytes, Stack size 8 bytes, bsp_slectlcd.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = showUpdate &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = showUpdate &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ShowString
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Clear
@@ -877,7 +877,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[79]"></a>MainDeskTopFist</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, bsp_slectlcd.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = MainDeskTopFist &rArr; showUpdate &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = MainDeskTopFist &rArr; showUpdate &rArr; LCD_ShowString &rArr; LCD_ShowChar &rArr; LCD_DrawPoint &rArr; Address_set &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;showUpdate
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ShowString
@@ -1991,7 +1991,6 @@ Global Symbols
 <LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemSet
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemCreate
-<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
 <LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinCfg
 <LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedUnlock
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedLock
@@ -2052,6 +2051,7 @@ Global Symbols
 <LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagCreate
 <LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_SchedRoundRobin
 <LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched0
+<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
 </UL>
 
 <P><STRONG><a name="[118]"></a>CPU_SR_Restore</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cpu_a.o(.text))
@@ -2066,7 +2066,6 @@ Global Symbols
 <LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemSet
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemCreate
-<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
 <LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinCfg
 <LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedUnlock
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedLock
@@ -2127,6 +2126,7 @@ Global Symbols
 <LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagCreate
 <LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_SchedRoundRobin
 <LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched0
+<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
 </UL>
 
 <P><STRONG><a name="[29d]"></a>CPU_WaitForInt</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cpu_a.o(.text), UNUSED)
@@ -2459,7 +2459,6 @@ Global Symbols
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyHMSM
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
-<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
 <LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedUnlock
 <LI><a href="#[1db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyResume
 <LI><a href="#[1d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskSemPendAbort
@@ -2485,6 +2484,7 @@ Global Symbols
 <LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPendAbort
 <LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPend
 <LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagDel
+<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
 </UL>
 
 <P><STRONG><a name="[168]"></a>OSSchedLock</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, os_core.o(.text), UNUSED)
@@ -2506,15 +2506,15 @@ Global Symbols
 <P><STRONG><a name="[16c]"></a>OS_RdyListMoveHeadToTail</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, os_core.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = OS_RdyListMoveHeadToTail
 </UL>
-<BR>[Called By]<UL><LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
-<LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_SchedRoundRobin
+<BR>[Called By]<UL><LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_SchedRoundRobin
+<LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedRoundRobinYield
 </UL>
 
 <P><STRONG><a name="[16b]"></a>OSSchedRoundRobinYield</STRONG> (Thumb, 148 bytes, Stack size 24 bytes, os_core.o(.text), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_RdyListMoveHeadToTail
-<LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSched
+<BR><BR>[Calls]<UL><LI><a href="#[166]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSched
 <LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CPU_SR_Save
 <LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CPU_SR_Restore
+<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_RdyListMoveHeadToTail
 </UL>
 
 <P><STRONG><a name="[95]"></a>OSStart</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, os_core.o(.text))
@@ -2758,9 +2758,9 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 24 + Unknown Stack Size
 <LI>Call Chain = OS_SchedRoundRobin &rArr; OS_RdyListMoveHeadToTail
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_RdyListMoveHeadToTail
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CPU_SR_Save
+<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CPU_SR_Save
 <LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CPU_SR_Restore
+<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_RdyListMoveHeadToTail
 </UL>
 <BR>[Called By]<UL><LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_IntQRePost
 </UL>
@@ -4101,7 +4101,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_InitLCD
 </UL>
 
-<P><STRONG><a name="[d8]"></a>_SPI_init</STRONG> (Thumb, 166 bytes, Stack size 32 bytes, bsp_lcd2_4_spi.o(.text))
+<P><STRONG><a name="[d8]"></a>_SPI_init</STRONG> (Thumb, 200 bytes, Stack size 32 bytes, bsp_lcd2_4_spi.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = _SPI_init &rArr; GPIO_PinAFConfig
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
@@ -4120,7 +4120,7 @@ Local Symbols
 <LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WR_REG
 </UL>
 
-<P><STRONG><a name="[dd]"></a>InitLCDsReages</STRONG> (Thumb, 534 bytes, Stack size 8 bytes, bsp_lcd2_4_spi.o(.text))
+<P><STRONG><a name="[dd]"></a>InitLCDsReages</STRONG> (Thumb, 508 bytes, Stack size 8 bytes, bsp_lcd2_4_spi.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = InitLCDsReages &rArr; LCD_WR_REG &rArr; SPI2_RWByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WR_REG

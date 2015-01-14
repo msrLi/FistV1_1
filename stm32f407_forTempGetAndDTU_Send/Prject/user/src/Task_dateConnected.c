@@ -219,7 +219,7 @@ void AppTaskDateConnected(void *p_arg)
 			OSTimeDlyHMSM((CPU_INT16U) 0u,
 										(CPU_INT16U) 0u,
 										(CPU_INT16U) 0,
-										(CPU_INT32U) 50,
+										(CPU_INT32U) 10,
 										(OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
 										(OS_ERR   *)&err);				
 		}
