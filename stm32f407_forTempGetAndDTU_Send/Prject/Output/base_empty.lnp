@@ -1,7 +1,5 @@
 --cpu Cortex-M4.fp
-".\output\task_gui.o"
 ".\output\task_dateconnected.o"
-".\output\task_dtudely.o"
 ".\output\userfunction.o"
 ".\output\main.o"
 ".\output\stm32f4xx_it.o"

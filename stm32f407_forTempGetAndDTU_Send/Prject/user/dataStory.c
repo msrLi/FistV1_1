@@ -5,7 +5,8 @@
 COMDATA comPortData[MAXCOM];   // 设备描述变量 
 uint16_t Values[MAXCOM][2];  
 
-void PortConfig(MODE modes,uint8_t comPort,char buff[])
+
+void PortConfig(MODE modes,uint8_t comPort,const char *buff)
 {
 	if(comPort>16)
 	{
@@ -26,9 +27,12 @@ void GiveValue(void)
 *  canshu: com 端口号 0--15  
 *  buff  : 名称号
 **/
-void DevieceConfig(uint8_t com,char *buff)
+void DevieceConfig(int8_t com,const char *buff)
 {
 	uint8_t i;
+	if(com>16 || com<=0)
+		return ;
+	com--;
 	i=strlen(buff);
 	if(i>0 && i<10)
 	{
@@ -36,8 +40,12 @@ void DevieceConfig(uint8_t com,char *buff)
 	}
 	comPortData[com].Online=0;              // 接受完成
 }
-
-uint16_t GetValue1(char buff[])
+/* 
+*   name:GetValue1 
+*   camshu: buff[]
+*   按字符串取回值大小
+**/
+uint16_t GetValue1(const char buff[])
 {
 	uint8_t i;
 	for(i=0;i<MAXCOM;i++)

@@ -90,7 +90,7 @@ void LCD_ShowChar(u16 x,u16 y,u8 num,u8 mode)
 //*p:字符串起始地址
 //用16字体
 void LCD_ShowString(u16 x,u16 y,const u8 *p)
-{         
+{      	
     while(*p!='\0')
     {       
         if(x>LCD_W-16){x=0;y+=16;}

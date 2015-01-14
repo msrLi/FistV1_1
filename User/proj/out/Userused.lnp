@@ -1,0 +1,10 @@
+--cpu Cortex-M4.fp
+".\out\userfunction.o"
+".\out\stm32f4xx_it.o"
+".\out\main.o"
+".\out\startup_stm32f4xx.o"
+"..\lib\base_empty.lib"
+--library_type=microlib --strict --scatter ".\out\Userused.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Userused.map" -o .\out\Userused.axf

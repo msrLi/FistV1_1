@@ -405,24 +405,9 @@
           <GroupName>App</GroupName>
           <Files>
             <File>
-              <FileName>Task_GUI.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\user\src\Task_GUI.c</FilePath>
-            </File>
-            <File>
               <FileName>Task_dateConnected.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\user\src\Task_dateConnected.c</FilePath>
-            </File>
-            <File>
-              <FileName>Task_DtuDely.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\user\src\Task_DtuDely.c</FilePath>
-            </File>
-            <File>
-              <FileName>UserFunction.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\user\src\UserFunction.c</FilePath>
             </File>
           </Files>
         </Group>

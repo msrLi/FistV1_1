@@ -192,20 +192,12 @@ void AppTaskDateConnected(void *p_arg)
   USART2_RX_STA=0;
   USART1_RX_STA=0;
 	GPIO_SetBits(GPIOB,GPIO_Pin_0);
-  MainDeskTopFist();
+  MainDeskTopFist();     // LCD 画图函数
 
-	ChangeSpeed(1,0);
-	ChangeSpeed(2,0);
-	ChangeSpeed(3,0);
-	ChangeSpeed(4,0);
-	ChangeAngle(1,10,1);
-	ChangeAngle(2,110,1);
-	ChangeAngle(3,130,1);
-	ChangeAngle(4,3000,2);
-	 
+
+	Init_COM_ALL(); 
 	while(1)
 	{		
-		// keyValue.keyOK==0 ?  showUpdate():showRun();
 		if(keyValue.keyOK)
 		{
 			if(flag==0)
@@ -215,13 +207,7 @@ void AppTaskDateConnected(void *p_arg)
 				LCD_ShowString(160,20,(u8 *) "Runing......");		  // 清除标志 显示字符 
 			}
 			flag=1;
-			(*keyValue.KeyDealFunc)();
-//			OSTimeDlyHMSM((CPU_INT16U) 0u,
-//										(CPU_INT16U) 0u,
-//										(CPU_INT16U) 0,
-//										(CPU_INT32U) 1,
-//										(OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
-//										(OS_ERR   *)&err);				
+			(*keyValue.KeyDealFunc)();			
 		}else{
 			if(flag==1)
 			{
@@ -237,39 +223,6 @@ void AppTaskDateConnected(void *p_arg)
 										(OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
 										(OS_ERR   *)&err);				
 		}
-//		XunBaoPRO();
-//	   ChangeSpeed(2,pwm_r);   // Right_Q 
-////	   ChangeSpeed(3,pwm_r);  //Right_H 
-//		 ChangeSpeed(1,-pwm_l);		// Left_Q 
-////	   ChangeSpeed(4,-pwm_l);   // Left_H
-		
-//		GetValueTime(6);
-//		LCD_ShowString(150,150,"LEFT");
-//    ShowNumber(190,150,(int)Values[6][0]);//ItUp   //Right
-//		LCD_ShowString(150,100,"RIGHT");
-//    ShowNumber(190,100,(int)Values[0][0]);//ItUp   //Left
-//		help_left=Values[6][0];
-//		help_right=Values[0][0];
-//		common = (int)((2048-(help_left+help_right))*1.2);
-//		error = -(help_right-help_left)*5;
-//		pwm_l = common-error;
-//		pwm_r = common+error;
-//		if(pwm_l>2500) pwm_l=2500;
-//		else if(pwm_l<-200) pwm_l=-200;
-//		if(pwm_r>2500) pwm_r=2500;
-//		else if(pwm_r<-200) pwm_r=-200;
-//		ChangeAngle(7,cGg);
-//		ChangeAngle(8,cGg);
-		// Usart1_sendChar(0xFA);
-
-		 // GPIO_SetBits(GPIOB,GPIO_Pin_0);    // 不选中 4--16 译码器 
-		/*  查询频率 设置 */
-//		OSTimeDlyHMSM((CPU_INT16U) 0u,
-//                  (CPU_INT16U) 0u,
-//                  (CPU_INT16U) 0,
-//                  (CPU_INT32U) 1,
-//                  (OS_OPT    ) OS_OPT_TIME_HMSM_STRICT,
-//                  (OS_ERR   *)&err);	
 	 }	  
 }
 void GetValueTime(uint8_t Ports)
